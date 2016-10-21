@@ -1,13 +1,13 @@
-// var language = function(q1, q2, q3, q4, q5) {
-//   if (total <= 11) {
+// var total = function(company + work + food + people + city) {
+//   if ((company + work + food + people + city) <= 7) {
 //
 //   return "You might enjoy taking CSS/Design";
 //
-// } else if (total > 11 && total <= 18) {
+// } else if ((company + work + food + people + city) > 8 && (company + work + food + people + city) <= 12) {
 //
 //   return "You might enjoy Ruby/Rails";
 //
-// } else if (total > 19 && total <= 25) {
+// } else if ((company + work + food + people + city)  > 13 && (company + work + food + people + city)  <= 15) {
 //
 //    return "You might enjoy C#/.NET";
 //

@@ -1,3 +1,21 @@
-p {
+/*.jumbotron {
   display: none;
-  }
+}*/
+
+p.langCSS {
+  display: none;
+}
+
+p.langRuby {
+  display: none;
+}
+
+p.langCsharp {
+  display: none;
+}
+
+img {
+  display: none;
+  margin: auto;
+  width: 300px;
+}
