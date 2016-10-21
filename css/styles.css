@@ -19,3 +19,7 @@ img {
   margin: auto;
   width: 300px;
 }
+
+p.link {
+  text-align: center;
+}
