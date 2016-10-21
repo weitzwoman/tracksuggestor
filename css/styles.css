@@ -1,16 +1,16 @@
-.jumbotron {
+/*.jumbotron {
+  display: none;
+}*/
+
+.langCSS {
   display: none;
 }
 
-p.langCSS {
+.langRuby {
   display: none;
 }
 
-p.langRuby {
-  display: none;
-}
-
-p.langCsharp {
+.langCsharp {
   display: none;
 }
 
