@@ -23,15 +23,18 @@ $(document).ready(function() {
     var city = parseInt($("select#city").val());
     var total = company + work + food + people + city;
 
-    if(total <= 7) {
-      $(".langCSS").show();
+    if (total <= 7) {
+      $(".jumbotron").show();
+      $(".langCSS").fadeIn();
       } else if (total > 8 && total <= 12) {
-      $(".langRuby").show();
+      $(".jumbotron").show();
+      $(".langRuby").fadeIn();
       } else if (total > 13 && total <= 15) {
-      $(".langCsharp").show();
+      $(".jumbotron").show();
+      $(".langCsharp").fadeIn();
     }
 
-// $(".jumbotron").show();
+    // $(".jumbotron").show();
     // var language = total;
     // $("#language").text(language);
 
