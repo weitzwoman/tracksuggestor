@@ -14,19 +14,15 @@
       </div>
       <div class="row">
         <div class="col-md-6">
-          <form>
-            <div class="form-group">
+          <form id="survey">
+            <!-- <div class="form-group">
               <label for="fullname">Your Name</label>
               <input type="text" class="form-control" id="fullname" placeholder="Type your name here">
             </div>
             <div class="form-group">
               <label for="address">Your Email Address</label>
               <input type="text" class="form-control" id="address" placeholder="Type your email address">
-            </div>
-
-            <div class="form-group">
-            </div>
-
+            </div> -->
             <label for "company">What kind of company do you want to work for?</label>
             <select id="company" class="form-control">
               <option value="" selected disabled>Please select ...</option>
@@ -34,6 +30,7 @@
               <option value="2">Start up</option>
               <option value="3">Corporation</option>
             </select>
+            <br>
             <label for "work">What kind of web development appeals to you?</label>
             <select id="work" class="form-control">
               <option value="" selected disabled>Please select ...</option>
@@ -41,6 +38,7 @@
               <option value="2">Web Applications</option>
               <option value="3">Business Software</option>
             </select>
+            <br>
             <label for "food">What is your favorite food?</label>
             <select id="food" class="form-control">
               <option value="" selected disabled>Please select ...</option>
@@ -48,15 +46,17 @@
               <option value="2">Sushi</option>
               <option value="3">Pizza</option>
             </select>
+            <br>
             <label for "people">How do you like to interact with people?</label>
-            <select id="work" class="form-control">
+            <select id="people" class="form-control">
               <option value="" selected disabled>Please select ...</option>
               <option value="1">It's all about making sure they have the best experience.</option>
               <option value="2">I want to meet a bunch of people and get things done quickly.</option>
               <option value="3">I'm so deep, you don't even know I'm around.</option>
             </select>
-            <label for "food">Where do you want to take a vacation?</label>
-            <select id="food" class="form-control">
+            <br>
+            <label for "city">Where do you want to take a vacation?</label>
+            <select id="city" class="form-control">
               <option value="" selected disabled>Please select ...</option>
               <option value="1">Berlin</option>
               <option value="2">Japan</option>
@@ -69,17 +69,10 @@
 
         <div class="col-md-6">
           <div class="jumbotron">
-            <h2>Receipt</h2>
-            <p class="receipt">
-            <em>Thank you for eating with us! Have a nice day!</em>
-            <h4>Below is your order:
-            </h4>
-            <ul class="list">
-              <li class="first"></li>
-              <li class="second"></li>
-              <li class="third"></li>
-            </ul>
-            </p>
+            <h2>Your Perfect Language Track:</h2>
+            <p class="langCSS">CSS/Design</p>
+            <p class="langRuby">Ruby/Rails</p>
+            <p class="langCsharp">CSharp/.NET</p>
           </div>
         </div>
       </div>
