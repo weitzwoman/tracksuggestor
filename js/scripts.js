@@ -13,26 +13,23 @@
 //
 // }
 // }
-
-  if (total <= 11) {
-    $(".langCSS").show();
-    } else if (total > 11 && total <= 18) {
-      $(".langRuby").show();
-    } else if (total > 19 && total <= 25) {
-      $(".langCsharp").show();
-}
-
-
 $(document).ready(function() {
   $("form#survey").submit(function(event) {
-    var company = parseInt($("#company").val());
-    var work = parseInt($("#work").val());
-    var food = parseInt($("#food").val());
-    var people = parseInt($("#people").val());
-    var city = parseInt($("#city").val());
+    event.preventDefault();
+    var company = parseInt($("select#company").val());
+    var work = parseInt($("select#work").val());
+    var food = parseInt($("select#food").val());
+    var people = parseInt($("select#people").val());
+    var city = parseInt($("select#city").val());
     var total = company + work + food + people + city;
 
-  event.preventDefault();
+    if(total <= 7) {
+      $(".langCSS").show();
+    } else if (total > 8 && total <= 12) {
+        $(".langRuby").show();
+      } else if (total > 13 && total <= 15) {
+        $(".langCsharp").show();
+  }
 
 
     // var language = total;
