@@ -25,13 +25,13 @@ $(document).ready(function() {
 
     if(total <= 7) {
       $(".langCSS").show();
-    } else if (total > 8 && total <= 12) {
-        $(".langRuby").show();
+      } else if (total > 8 && total <= 12) {
+      $(".langRuby").show();
       } else if (total > 13 && total <= 15) {
-        $(".langCsharp").show();
-  }
+      $(".langCsharp").show();
+    }
 
-
+// $(".jumbotron").show();
     // var language = total;
     // $("#language").text(language);
 
